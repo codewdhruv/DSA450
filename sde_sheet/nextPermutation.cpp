@@ -20,5 +20,12 @@ break;
             swap(nums[k],nums[l]);
             reverse(nums.begin()+k+1,nums.end());
         }
+     
+     // Create a Vector and return?
+/*  vector<int>ans;
+       for(int i=0;i<N;i++) ans.push_back(nums[i]);
+       return ans;
+       */
+    
     }
 };
